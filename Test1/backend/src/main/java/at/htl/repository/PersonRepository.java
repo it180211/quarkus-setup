@@ -20,4 +20,11 @@ public class PersonRepository implements PanacheRepository<Person> {
             return null;
         }
     }
+    
+    /*
+     public void update(Person person) {
+        getEntityManager().merge(person);
+    }
+    */
+    
 }
